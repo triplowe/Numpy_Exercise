@@ -1,4 +1,4 @@
-## Numpy Exercise 2
+##Numpy Exercise 2
 import numpy as np
 
 ## This array documnets the last 5 sales for each of Superstore's four cash registers. 
@@ -58,12 +58,18 @@ print()
 
 ## Step 8: Superstore has added a 5th cash register who's data is stored in the array newRegister. Add the new register to the original array. Print the updated salesArray.
 print("-----------------------------------------------   STEP EIGHT  -----------------------------------------------")
-newRegister = np.array([17.89,13.59,107.89,176.88,56.78])
+print("Added 5th register: ")
+print()
+newRegister = np.array([[17.89,13.59,107.89,176.88,56.78]])
+print(salesArray)
+print()
+salesArray = np.concatenate((salesArray, newRegister), axis=0)
+print(salesArray)
 print()
 
 ## Step 9: Register #3 had an error and recorded it's fourth sale ($200.14) incorrectly. The sale should have been $20.14. Update the array to correct this error.
 #           Print the array before and after the update to see the change.
 print("-----------------------------------------------   STEP NINE  -----------------------------------------------")
-
+sales
 print()
 
