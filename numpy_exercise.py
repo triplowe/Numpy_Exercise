@@ -70,6 +70,11 @@ print()
 ## Step 9: Register #3 had an error and recorded it's fourth sale ($200.14) incorrectly. The sale should have been $20.14. Update the array to correct this error.
 #           Print the array before and after the update to see the change.
 print("-----------------------------------------------   STEP NINE  -----------------------------------------------")
-sales
+print("Register 3, 4th Sale changed to 20.14: ")
+print()
+print(salesArray)
+print()
+salesArray[2][3] = 20.14
+print(salesArray)
 print()
 
